@@ -1,0 +1,28 @@
+{
+  "name": "trie-loader",
+  "version": "1.0.0",
+  "description": "Trie loader for Webpack",
+  "main": "trie-loader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jnu/trie-loader.git"
+  },
+  "keywords": [
+    "trie",
+    "webpack",
+    "loader",
+    "tiny-trie"
+  ],
+  "author": "Joe Nudell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jnu/trie-loader/issues"
+  },
+  "homepage": "https://github.com/jnu/trie-loader#readme",
+  "dependencies": {
+    "tiny-trie": "git+https://github.com/jnu/tiny-trie.git"
+  }
+}
