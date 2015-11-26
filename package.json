@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/jnu/trie-loader#readme",
   "dependencies": {
-    "tiny-trie": "git+https://github.com/jnu/tiny-trie.git"
+    "tiny-trie": "git+https://github.com/jnu/tiny-trie.git#v0.1.0"
   }
 }
