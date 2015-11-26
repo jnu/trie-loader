@@ -1,4 +1,4 @@
-var tinyTrie = require('tiny-trie');
+var tinyTrie = require('tiny-trie/dist/tiny-trie');
 var fs = require('fs');
 
 module.exports = function(source) {
