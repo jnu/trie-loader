@@ -22,7 +22,7 @@ module.exports = function(source) {
     // Not space efficient, but reasonably fast.
     else {
         s = "var tinyTrie = require('tiny-trie');";
-        s = "var words = " + JSON.stringify(words) + ";";
+        s += "var words = " + JSON.stringify(words) + ";";
         s += "module.exports = tinyTrie.createSync(words);";
         return s;
     }
